@@ -1,0 +1,20 @@
+8  <!DOCTYPE html>--
+<html>
+<head>
+    <title>Bill List</title>
+</head>
+<body>
+    <h1>Bills</h1>
+    <a href="{% url 'bill_create' %}">Create New Bill</a>
+    <ul>
+        {% for bill in bills %}
+            <li>
+                Date: {{ bill.billDate }} - Amount: {{ bill.totalAmount }} - Due: {{ bill.dueDate }} - 
+                Customer: {{ bill.customerID }} - Tariff: {{ bill.tariffID }} - 
+                <a href="{% url 'bill_update' bill.pk %}">Edit</a> | 
+                <a href="{% url 'bill_delete' bill.pk %}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Consumption List</title>
+</head>
+<body>
+    <h1>Consumption Records</h1>
+    <a href="{% url 'consumption_create' %}">Create New Consumption Record</a>
+    <ul>
+        {% for consumption in consumptions %}
+            <li>
+                {{ consumption.readingDateFrom }} to {{ consumption.readingDateTo }} - 
+                Customer: {{ consumption.customerID }} - 
+                <a href="{% url 'consumption_update' consumption.pk %}">Edit</a> | 
+                <a href="{% url 'consumption_delete' consumption.pk %}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
