@@ -61,4 +61,4 @@ The ECB system will play a crucial role in modernizing electricity billing pract
 
 
 --- Figma Link ---
-https://www.figma.com/design/1lZpTq4Nex1TWN9wSNnDJu/Electricity-Billing-System-(Community)?node-id=111-671&node-type=frame&t=u3gzRcScqKC7eXfG-0
+[https://www.figma.com/design/1lZpTq4Nex1TWN9wSNnDJu/Electricity-Billing-System-(Community)?node-id=111-671&node-type=frame&t=u3gzRcScqKC7eXfG-0](https://www.figma.com/design/wMYTLBwNbAOzsFBbXdXVXG/Untitled?node-id=0-1&t=ZcYLYPHR4Qc1So23-1)
